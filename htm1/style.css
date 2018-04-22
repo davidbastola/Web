@@ -1,0 +1,303 @@
+body{
+  margin: 0 auto;
+}
+/*Main body background*/
+#main{
+  background-image: url('q.jpg');/*img*/
+  background-size:cover;/*cov*/
+  background-color: black;/*blc*/
+
+}
+/*img*/
+.image{
+  display: inline-block;/*image inlined */
+  color: white;
+  margin-left: 350px;
+}
+/* Home page text*/
+.information {
+  display: inline-block;/*inblck*/
+  color: white;/*col*/
+
+}
+/* margin alined*/
+.information h1, h2{
+  margin-left: 360px;/*margin*/ 
+  text-align: center;/*cent*/
+  top: 40px;/*top*/
+}
+
+/*Navigation bar codes*/
+body {
+  background-color: #EBE8E4;/*color*/
+  color: #222;/*int*/
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 15px;/*size*/
+}
+/* navigation */
+nav {
+  background-color: #fff;/*col*/
+  border: 1px solid #dedede;/*bord*/
+  border-radius: 4px;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  color: #888;
+  display: block;
+  margin: 8px 22px 8px 22px;/*mar*/
+  overflow: hidden;
+  width: 96%; /*wide*/
+}
+
+  nav ul {
+    margin: 0;/* nav list*/
+    padding: 0;/*pad*/
+  }
+/* tansiction*/
+    nav ul li {
+      display: inline-block;/*blck*/
+      list-style-type: none;
+      
+      -webkit-transition: all 0.2s;/*tran*/
+        -moz-transition: all 0.2s;/*tran*/
+        -ms-transition: all 0.2s;/*adadsom*/
+        -o-transition: all 0.2s;
+        transition: all 0.2s; /*transiction*/
+    }
+      /*transp*/
+      nav > ul > li > a > .caret {
+        border-top: 4px solid #aaa;
+        border-right: 4px solid transparent;/*transp*/
+        border-left: 4px solid transparent;/*transp*/
+        content: "";
+        display: inline-block;
+        height: 0;
+        width: 0;
+        vertical-align: middle;
+  
+        -webkit-transition: color 0.1s linear;
+          -moz-transition: color 0.1s linear;
+        -o-transition: color 0.1s linear;
+          transition: color 0.1s linear; 
+      }
+/*color*/
+      nav > ul > li > a {
+        color: #aaa;
+        display: block;
+        line-height: 56px;
+        padding: 0 24px;
+        text-decoration: none;
+      }
+/*hover*/
+        nav > ul > li:hover {
+          background-color: rgb( 40, 44, 47 );/*backcol*/
+        }
+
+        nav > ul > li:hover > a {
+          color: rgb( 255, 255, 255 );/*rgb*/
+        }
+
+        nav > ul > li:hover > a > .caret {
+          border-top-color: rgb( 255, 255, 255 );
+        }
+      
+      nav > ul > li > div {
+        background-color: rgb( 40, 44, 47 );/*bgcol*/
+        border-top: 0;/*bgtop*/
+        border-radius: 0 0 4px 4px;
+        box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+        display: none;/*asd*/
+        margin: 0;
+        opacity: 0;
+        position: absolute;
+        width: 165px;
+        visibility: hidden;/*hide*/
+  
+        -webkit-transiton: opacity 0.2s;
+        -moz-transition: opacity 0.2s;
+        -ms-transition: opacity 0.2s;
+        -o-transition: opacity 0.2s;
+        -transition: opacity 0.2s;
+      }
+
+        nav > ul > li:hover > div {
+          display: block;
+          opacity: 1;
+          visibility: visible;/*visibuility*/
+        }
+
+          nav > ul > li > div ul > li {
+            display: block;/*blc*/
+          }
+
+            nav > ul > li > div ul > li > a {
+              color: #fff;/*col*/
+              display: block;/*blc*/
+              padding: 12px 24px;/*padd*/
+              text-decoration: none;/*txt*/
+            }
+
+              nav > ul > li > div ul > li:hover > a {
+                background-color: rgba( 255, 255, 255, 0.1);
+              }
+
+/*Social sites icons*/
+.fa {
+  padding: 100px;/*fafa*/
+  font-size: 100px;
+  width: 100px;/*fafa*/
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;/*opc*/
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;/*col*/
+}
+
+.fa-twitter {
+  background: #55ACEE;/*ewht*/
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.AA{color: white;
+  margin-left: 530px; 
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;/*width*/
+    padding: 12px;/*padd*/
+    border: 1px solid #ccc;
+    border-radius: 4px;/*rad*/
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;/*vert*/
+}
+
+input[type=submit] {
+    background-color: #4CAF50;/*bgcol*/
+    color: white;/*white*/
+    padding: 12px 20px;
+    border: none;/*none*/
+    border-radius: 4px;
+    cursor: pointer;/*point*/
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;/*hov*/
+}
+
+.container {
+    border-radius: 5px/*siz*/;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.footerc {
+  margin-left: 550px;/*footpx*/
+  margin-top: 520px;/*foot*/
+}
+
+.c {
+margin-left: 15px;/*as*/
+margin-top: 15px;/*ssc*/
+}
+
+.d{
+  margin-left: 15px;/*sdasc*/
+  margin-top: 10px;/*apic*/
+}
+
+.p h3{
+  display: inline-block;/*inline*/
+  color: white;
+  margin-left: 530px; /*pix*/
+  text-align: center;
+  top: 40px;/*tiop*/
+}
+
+
+div {
+  border-radius: 5px;/*bord*/
+  color: white;/*00ft*/
+}
+
+
+#title {
+  margin-left: 3%;/*perct*/
+}
+
+
+.stuff {
+  display: inline-block;/*asd*/
+  margin-top: 6px;
+  margin-left: 55px;/*haha*/
+  width: 75%;
+  height: 1000px;/*hasd*/
+}
+
+li {
+  font-family: 'Cormorant Garamond';/*asdpk*/
+}
+
+.head {
+  font-size: 20px;/*head*/
+}
+
+#name {
+  font-family: Sacramento;/*sac*/
+  float: right;/*f*/
+  margin-top: 10px;/*pix*/
+  margin-right: 4%;/*marg*/
+}
+
+a {
+  color: white;/*a col*/
+  text-decoration: none;/*textdec*/
+}
+
+
+  .stuff {
+    width: 100%;/*wide*/
+    margin-left: 10px;/*left*/
+  }
+}
+
+.boo {
+  color: white;/*whi*/
+  text-decoration: none;/*null*/
+}
+
+.image1 img{
+  height: 375px;/*height*/
+  width:300px;/*weidth done*/
+  margin-left: 510px;/*as*/
+  margin-top: 10px;/*top*/
+  border-radius:15%;/*rad*/
+}
